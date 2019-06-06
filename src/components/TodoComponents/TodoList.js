@@ -7,7 +7,7 @@ import TodoForm from './TodoForm';
 function TodoList(props) {
     return (
         <div>
-            <p>{props}</p>
+           {props.tasks.map((task) => <p>)}
      <div/>)
 }
 
